@@ -81,6 +81,6 @@ echo -e '\e[m\\n\\n' '''
         bash.write(f'{inicio}\n{rsenha}\n{rnick}\n{rcor}\n{final}'if vs
                    else f'{inicio}\n{rnick}\n{rcor}\n{final}')
         bash.close()
-        print(f'{vd}!Sucess!')
+        print(f'{vd}!Sucesso!')
         sleep(1)
         break
