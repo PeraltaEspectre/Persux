@@ -21,9 +21,9 @@ try:
             clear()
             print(f'{cy}~Lursy: {vd}Bem... ')
             sleep(1)
-            print('        Seja bem vindo!!')
+            print('        Seja Bem-Vindo!!')
             sleep(2)
-            print('        Esse é o menu, fique a vontade :D')
+            print('        Esse é o menu :D')
             sleep(1.4)
         print(persuxf.rstrip(), '2.0\n\n')
         user = (open('.usuario', 'r')).readline()
@@ -32,7 +32,6 @@ try:
   {am}[ 2 ] {br}-{cy} banner
   {am}[ 3 ] {br}-{cy} senha
   {am}[ 4 ] {br}-{cy} {user}
-  {am}[ 5 ] {br}-{cy} Criador
   {am}[ 6 ] {br}-{cy} Sair
 {ve}┗━━━━━━━━━━━━━━━━━┛
 ''')
@@ -55,9 +54,6 @@ try:
             nome_letra()
             from data.ferramentas import *
         elif menu == '5':
-            os.system(f'termux-open-url https://www.youtube.com/channel/UCwmkiKIZHL1wscYHfIINZKw')
-            clear()
-        elif menu == '6':
             print(f'\n{vd}Saindo...')
             sleep(1)
             clear()
