@@ -32,7 +32,7 @@ try:
   {am}[ 2 ] {br}-{cy} banner
   {am}[ 3 ] {br}-{cy} senha
   {am}[ 4 ] {br}-{cy} {user}
-  {am}[ 6 ] {br}-{cy} Sair
+  {am}[ 5 ] {br}-{cy} Sair
 {ve}┗━━━━━━━━━━━━━━━━━┛
 ''')
         menu = str(input(f'{am}//: {br}'))
